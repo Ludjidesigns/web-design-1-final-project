@@ -1,0 +1,131 @@
+html{
+   font-family: "roboto", sans-serif;
+}
+
+*,* ::before, *::after {
+   box-sizing: inherit;
+}
+
+img .banner-img {
+   width: 100%;
+  
+}
+
+.role-banner {
+   max-width: 1280px;
+   margin: 0 auto;
+   
+}
+
+.bg-black {
+   background-color: black;
+}
+
+header {
+   display: flex;
+   display: inline-block; 
+   background-color: black;
+   color: white;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.name {
+   font-weight: bold;
+   font-size: 1.5rem;
+   
+}
+
+nav ul {
+   list-style-type: none;
+   display: flex;
+   gap: 2rem;
+   padding: 0.5em;
+   margin: 0;
+   justify-content: flex-end;
+}
+
+nav li a {
+   color: white;
+   text-decoration: none;
+}
+
+
+body {
+   margin: 0;
+}
+
+#about-me {
+   display: flex;
+}
+
+#services div div {
+   display: flex;
+   gap: 2rem;
+}
+
+#services {
+   background-color: #fafafa;
+}
+
+#services h2 {
+   padding-top: 2em;
+   margin: 1.2em;
+   text-align: center;
+   margin-bottom: 1.2em;
+}
+
+#services article {
+   background-color: white;
+   padding: 0.3em;
+}
+
+#services h3 {
+   margin-top: 0;
+}
+
+#services a {
+   background-color: black;
+   color: white;
+   text-decoration: none;
+   padding: 0.5em 0.8em;
+   border-radius: 5px;
+}
+
+#section .my-work {
+   padding: 1em 0;
+
+}
+
+.my-work .work {
+   margin-top: 1.2em;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   max-width: 45em;
+   margin: 0 auto;
+}
+
+#tell-it-better {
+   background-color: black;
+   color:white;
+   padding: 4em;
+   text-align: center;
+
+}
+
+#tell-it-better .blockquote {
+   display: inline-block;
+   display: flex;
+}
+
+footer {
+   background-color: black;
+   color: white;
+}
+
+footer .wrapper{
+   text-align: center;
+   padding: 8px 0;
+   margin-bottom: 0;
+}
